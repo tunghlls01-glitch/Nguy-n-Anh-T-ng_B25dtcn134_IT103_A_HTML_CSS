@@ -1,9 +1,62 @@
-.header {
-    background-color: rgb(2, 132, 199);
-    text-align:center;
+.header{
+    background-color: rgb(0, 135, 255);
 }
-.header h1 {
+.header h1{
+    text-align: center;
     color: aliceblue;
-     font-style:normal;
+    text-transform: uppercase;
+    left: 5px;
 }
-.header
+.header p{
+    text-align: center;
+    font-style: italic;
+    color: #f0f8ff;
+    font-weight: 500;
+}
+.main{
+
+}
+/*info*/
+.info{
+
+}
+.info h2{
+    color: rgb(0, 162, 255);
+}
+/*action*/
+.action{
+
+}
+.action h2{
+    color: rgb(0, 162, 255);
+}
+.skin{
+    color: rgb(0, 174, 255);
+}
+/* services*/
+.services{
+
+}
+.services ul{
+    list-style: none;
+}
+.services ul li:hover{
+    color:rgb(2, 132, 199);
+    cursor: pointer;
+    word-spacing: 3px;
+}
+/*Note*/
+.note{
+
+}
+.highlight{
+    color: brown;
+}
+.footer{
+    background-color: rgb(0, 135, 255);
+}
+footer h1{
+    text-align: center;
+    color: #f0f8ff;
+    left: 5px;
+}
