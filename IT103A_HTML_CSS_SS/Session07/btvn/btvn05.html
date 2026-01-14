@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        font-family: cursive;
+        background-color: #f4f4f4;
+        padding-top: 50px;
+        padding-bottom: 100%;
+    }
+
+    .main {
+        width: 350px;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 1);
+        position: relative;
+        /* mốc nhãn gián hot */
+    }
+
+    .main .header {
+        background-color: #1effff;
+        padding: 20px;
+        text-align: center;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .main .hot {
+        background-color: red;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 15px;
+        position: absolute;
+        top: 2px;
+        right: 3px;
+    }
+
+    .main .body {
+        padding: 20px 30px;
+        color: #555;
+    }
+
+    .main .body .info {
+        margin-bottom: 25px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #eee;
+    }
+
+    .highlight {
+        color: #00e600;
+        font-weight: bold;
+    }
+
+    .btn_book {
+        background-color: aqua;
+        color: black;
+        border: none;
+        border-radius: 30px;
+        padding: 15px;
+        width: 90%;
+        font-weight: bold;
+        cursor: pointer;
+        position: relative;
+        left: 15px;
+        bottom: 15px;
+    }
+</style>
+
+<body>
+    <div class="main">
+
+        <div class="header">
+            <h2>GÓI CHĂM SÓC RĂNG</h2>
+        </div>
+        <div class="body">
+            <div class="info">
+                Dịch vụ: <span class="highlight">Tẩy trắng răng</span>
+            </div>
+            <div class="info">
+                Công nghệ: <span>Laser Whitening</span>
+            </div>
+            <div class="info">
+                Thời gian: <span class="highlight">60 phút</span>
+            </div>
+            <div class="info">
+                Bảo hành: <span class="highlight">6 tháng</span>
+            </div>
+            <div class="info">
+                Giá ưu đãi: <span class="highlight">1.600.000 đ</span>
+            </div>
+        </div>
+        <div class="footer">
+            <button class="btn_book">Đặt lịch ngay</button>
+        </div>
+        <div class="hot">
+            <h5>HOT</h5>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.info {
+    background: linear-gradient(rgb(0, 110, 255), rgb(12, 35, 65));
+    padding: 50px 150px;
+}
+.info .p_one {
+    background-color: rgba(0, 0, 255, 0);
+    width: 200px;
+    text-align: center;
+    padding: 7px;
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+    color: #fff;
+}
+.info h1 {
+    color: #fff;
+    padding: 10px 0px 10px;
+}
+.info .p_two {
+    color: #fff;
+    padding: 0px 0px 10px;
+    max-width: 570px;
+}
+.info .button_1:hover {
+    transform: translateY(-5px);
+}

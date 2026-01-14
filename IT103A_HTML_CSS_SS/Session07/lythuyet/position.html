@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .box {
+             width: 100px;
+            height: 100px;
+            background-color: green;
+            color: #fff;
+        }
+        .relative {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            color: #fff;
+            position: relative;
+            left: 150px;
+            bottom: 100px;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- 
+        position: định vị, vị trí của một phần tử
+        1. static
+        2. relative : sẽ lấy vị trí ban đầu của nó làm mốc
+        3. absolute : tìm phần tử chứa nó gần nhất có thuộc tính poition giá trị 
+        khác static làm mốc, nếu không có thì ăn theo màn hình trình duyệt
+        4. fixed : cố định thanh herder
+        5. sticky
+    -->
+        <div class="box">
+            BOX
+        </div>
+        <div class="relative">
+            relative
+        </div>
+
+</body>
+</html>

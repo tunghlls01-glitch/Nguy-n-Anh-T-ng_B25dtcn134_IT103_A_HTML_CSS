@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .main {
+            border: 1px solid black;
+            width: 400px;
+            height: 510px ;
+        }
+        h1 {
+            text-align: center;
+            color: rgb(4, 82, 56);
+            padding: 15px 10px 0px;
+        }
+        .body label{
+            color: rgb(4, 82, 56);
+            font-weight: bolder;
+            padding: 15px;
+        }
+        .body input {
+            width: 92.5%;
+            padding: 6px;
+            border: 1px solid #555;
+            border-radius: 2px;
+            margin-bottom:  10px;
+            margin-left: 15px;
+        }
+        .body select {
+            width: 92.5%;
+            padding: 6px;
+            border: 1px solid #555;
+            border-radius: 2px;
+            margin-bottom:  10px;
+            margin-left: 15px;
+        }
+        .body textarea {
+            width: 92.5%;
+            padding: 6px;
+            border: 1px solid #555;
+            border-radius: 2px;
+            margin-bottom:  10px;
+            margin-left: 15px;
+            padding-bottom: 50px;
+        }
+        .footer button {
+            background-color: rgb(56, 146, 116);
+            border: none;
+            border-radius: 2px;
+            width: 90%;
+            padding: 10px;
+            color: white;
+            position: relative;
+            left: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <h1>Biểu Mẫu Feedback Phòng Khám Nha Khoa</h1>
+        </div>
+        <div class="body">
+            <label>Họ và tên</label><br/>
+            <input type="text" placeholder="Nhập họ tên"/><br/>
+            <label>Email</label><br/>
+            <input type="Email" placeholder="example@gmail.com"/><br/>
+            <label >Dịch vụ sử dụng</label><br/>
+            <select><br/>
+                <option>Khám răng tổng quát</option><br/>
+            </select><br/>
+            <label>Mức độ hài lòng</label><br/>
+            <select><br/>
+                <option>Rất hài lòng</option><br/>
+            </select><br/>
+            <label>Nội dung phản hồi</label><br/>
+            <textarea placeholder="Hãy cho chúng tôi biết cảm nhận của bạn..."></textarea><br/>
+        </div>
+        <div class="footer">
+            <button>Gửi feedback</button>
+        </div>
+    </div>
+</body>
+</html>
