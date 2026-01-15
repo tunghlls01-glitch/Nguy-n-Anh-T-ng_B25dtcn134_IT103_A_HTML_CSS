@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    color: #78350F;
+    background-color: #FFF7ED;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Trang chủ */
+/* header_trang chu */
+.header {
+    background-color: #FDE68A;
+    padding: 150px;
+}
+
+.header h1 {
+    text-align: center;
+    font-size: 100px;
+}
+
+.header p {
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+
+/* main */
+.main_a {
+    background-color: #FED7AA;
+    padding: 30px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.main_a a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #78350F;
+    transition: all 0.3s;
+}
+
+.main_a a:hover {
+    background-color: #ac4b13;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+}
+/* main */
+.doctor-section h2 {
+    text-align: center;
+    font-size: 80px;
+    margin: 150px 0px 50px 0px;
+}
+/* thẻ */
+.doctor-section {
+    background-color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+.doctor-card {
+    display: inline-block;
+    background-color: white;
+    width: 600px;
+    margin: 20px 40px 30px ;
+    padding: 400px 80px;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.doctor-card:hover {
+    background-color: #f2e6b6;
+    transform: translateY(-10px);
+    transition: 0.4;
+}
+
+.doctor-card img {
+    width: 50%;
+    height: 42%;
+    position: absolute;
+    top: 50px;
+    left: 185px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+h3 {
+    font-size: 50px;
+    position: absolute;
+    bottom: 300px;
+    right: 210px;
+}
+.doctor-card p {
+    font-size: 35px;
+    position: absolute;
+    bottom: 230px;
+    right: 220px;
+}
+.doctor-card span {
+    font-size: 35px;
+    position: absolute;
+    bottom: 170px;
+    right: 200px;
+    color: black;
+}
+/* chân trang */
+.footer {
+    background-color: #78350F;
+    padding: 90px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
