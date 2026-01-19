@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* phần đầu */
+        header {
+            background-color: black;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            height: 50px;
+        }
+
+        .header_a a {
+            color: aliceblue;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        /* phần thân */
+        main {
+            background-color: #F8F5F0;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        h1 {
+            font-weight: 700;
+            padding: 40px;
+        }
+        /* thẻ 1 */
+        .card_one {
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 1);
+            background-color: #FFFFFF;
+            width: 400px;
+            height: 350px;
+            border-radius: 15px;
+            padding: 20px;
+            margin-left: 170px;
+        }
+        .card_one .image img {
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+        }
+        .card_one h2 {
+            padding:  10px;
+            font-weight: 700;
+            font-size: 17.7px;
+        }
+        .card_one p {
+            color: #8C9AAD;
+            line-height: 1.5;
+            font-size: 10px;
+            padding: 10px;
+        }
+        .card_one nav {
+            color: #DCB761;
+            line-height: 1.5;
+            font-size: 10px;
+            padding-bottom:  10px;
+        }
+        /*  */
+        h2 {
+            padding: 30px;
+            font-weight: 700;
+        }
+        /* thẻ 2 */
+        .menu_two {
+            background-color: #FFFFFF;
+            padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            text-align: left;
+            line-height: 1.5;
+        }
+        .menu_two p {
+            color:#8C9AAD;
+        }
+
+        /* phần chân */
+        footer {
+            background-color: black;
+            color: white;
+            width: 100%;
+            height: 50px;
+            text-align: center;
+        }
+        footer p {
+            padding-top: 25px ;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Gourmet Insights</h1>
+        <div class="header_a">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Posts</a>
+            <a href="">Contact</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="menu_one">
+            <h1>Bài Viết Nổi Bật</h1>
+            <div class="card_one">
+                <div class="image">
+                    <img src="https://cdn.tgdd.vn/2021/05/CookProduct/maxresdefault(4)-1200x676-1200x676.jpg" alt="">
+                </div>
+                <h2>Nghệ Thuật Plating Trong Fine Dining</h2>
+                <p>Khám phá cách các đầu bếp hàng đầu biến món ăn thành tác phẩm nghệ thuật, từ kỹ thuật cơ bản đến sáng
+                    tạo đỉnh cao</p>
+                <nav>Đọc thêm →</nav>
+            </div>
+            <h2>Các bài viết khác</h2>
+            <div class="menu_two">
+                <div>
+                    <h3>Bí Quyết Chọn Nguyên Liệu Cao Cấp</h3>
+                    <p>Từ Wagyu Nhật Bản đến hải sản tươi sống, học cách chọn nguyên liệu để tạo nên món ăn hoàn hảo.
+                    </p>
+                </div>
+            </div>
+            <div class="menu_two">
+                <div>
+                    <h3>Xu Hướng Ẩm Thực 2025</h3>
+                    <p>Những phong cách plating mới và nguyên liệu đang lên ngôi trong thế giới Fine Dining.
+                    </p>
+                </div>
+            </div>
+            <div class="menu_two">
+                <div>
+                    <h3>Hành Trình Của Một Đầu Bếp Michelin</h3>
+                    <p>Chia sẻ từ đầu bếp từng đạt sao Michelin về đam mê và thử thách trong bếp.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy2025 Goumet Insights. All rights reserved</p>
+    </footer>
+
+</body>
+
+</html>

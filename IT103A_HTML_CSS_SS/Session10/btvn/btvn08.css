@@ -1,0 +1,149 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Times New Roman', Times, serif;
+}
+/* đầu trang */
+
+header {
+    width: 100%;
+    height: 104.38999938964844px;
+    background-color: #1e1e1e;
+    z-index: 1;
+    display: flex;
+    padding: 20px;
+    justify-content:space-around;
+    align-items: center;
+}
+
+header h1 {
+    color: #D4AF37;
+}
+
+header div a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+/* thân */
+
+/* nội dung 1 */
+.main_one {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-size: 25px;
+}
+
+.main_one .image {
+    position: relative;
+}
+
+.main_one .image img {
+    width: 100%;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+   
+}
+
+.main_one .image .nav {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    line-height: 1.5;
+    background-color: #00000099;
+}
+.main_one .image .nav p {
+    color: #ffffff;
+    font-size: 14px;
+}
+.main_one .image .nav button {
+    padding: 10px 20px;
+    background-color: #D4AF37;
+    border: none;
+    border-radius: 30px;
+    color: #ffffff;
+    margin: 20px;
+}
+/* Nội dung 2 */
+.main_two {
+    background-color: white;
+    text-align: center;
+}
+.main_two h1 {
+    padding: 50px;
+}
+.main_two .title { /* cách làm gạch chân web */
+    position: relative;
+    display: inline-block;
+    padding-bottom: 12px;
+}
+
+.main_two .title::after { /* cách làm gạch chân web */
+    content: "";
+    position: absolute;
+    left: 65%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 60px;           
+    height: 3px;              
+    background-color: #d4af37;
+    border-radius: 2px;
+}
+
+.main_two .image_all {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.main_two .image img {
+    width: 300.25px;
+    height: 350px;
+    border-radius: 20px;
+    padding: 10px;
+}
+ /* Nội dung 3 */
+ .main_three {
+    background-color: #1E1E1E;
+    text-align: center;
+    padding: 50px;
+
+ }
+ .main_three h1 {
+    color: #D4AF37;
+   padding-top:  60px;
+ }
+
+ .main_three p {
+    color: #DDDDDD;
+    font-size: 18px;
+    margin: 30px;
+    width: 900px;
+    height: 80px;
+    padding-bottom: 60px ;
+    margin-left: 250px;
+    display: flex;
+    f
+ }
+ /* chân trang */
+ footer {
+    text-align: center;
+    background-color: #111111;
+    padding: 20PX;
+    color: #888888;
+    font-size: 15PX;
+ }

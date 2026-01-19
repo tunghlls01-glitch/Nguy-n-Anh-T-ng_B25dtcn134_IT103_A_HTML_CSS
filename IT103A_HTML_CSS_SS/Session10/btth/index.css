@@ -1,0 +1,73 @@
+/* reset css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* css phần đầu */
+header {
+    background-color: #1e1e1e;
+    height: 97px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+header h1 {
+    color: #d4af37;
+    font-weight: 700;
+}
+header nav a {
+    color: #dddddd;
+    text-decoration: none;
+    font-size: 17.4px;
+    font-weight: 700;
+    margin: 10px;
+}
+/* css phần thân */
+
+main {
+    background-color: antiquewhite;
+    display: flex;
+    gap: 20px;
+}
+main div {
+
+    border-radius: 15px;
+    background-color: #ffffff;
+    margin: 30px 25px;
+
+}
+.menu h2 {
+    color: #d4af37;
+    padding: 20px;
+    font-weight: 700;
+}
+.menu p {
+    color: #555555;
+    font-weight: 700;
+    font-size: 17.7px;
+    padding: 20px;
+    text-align: justify;
+    line-height: ;
+}
+.menu .image img{
+    width: 100%;
+    height: 100%;
+}
+/* css phần chân */
+footer {
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+footer p {
+   color: #dddddd;
+}
+footer nav a {
+    color: #dddddd;
+    text-decoration: none;
+    margin: 10px;
+}
