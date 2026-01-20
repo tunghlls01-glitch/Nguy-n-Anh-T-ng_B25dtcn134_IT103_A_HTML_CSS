@@ -137,7 +137,8 @@ header div a {
     padding-bottom: 60px ;
     margin-left: 250px;
     display: flex;
-    f
+    flex-direction: row;
+    flex-wrap: wrap;
  }
  /* chân trang */
  footer {

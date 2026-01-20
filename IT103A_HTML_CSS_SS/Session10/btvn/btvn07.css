@@ -1,0 +1,130 @@
+body{
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .banner{
+            position: relative;
+            width: 100%;
+            height: 600px;
+        }
+
+        .banner img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .banner_content{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+        }
+
+        .bottom{
+            width: 100%;
+            padding: 40px 0;
+            background-color: white;
+        }
+
+        .bottom_line{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .bottom_card{
+            width: 300px;
+            height: 300px;
+            position: relative;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        .bottom_card img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .bottom_overlay{
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            padding: 20px;
+            color: white;
+
+            background: linear-gradient(
+                to top,
+                rgba(0,0,0,0.7),
+                rgba(0,0,0,0)
+            );
+        }
+
+        .bottom_overlay h3{
+            margin: 0;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .bottom_overlay p{
+            margin-top: 5px;
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+
+        .booking{
+            width: 100%;
+            height: 400px;
+            background-color: rgba(139, 0, 0, 1);
+        }
+
+        .booking h2{
+            text-align: center;
+            padding-top: 40px;
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        .booking p{
+            text-align: center;
+            color: white;
+            opacity: 0.9;
+            margin-bottom: 30px;
+        }
+
+        .booking_line{
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 10px;
+            flex-wrap: wrap;
+        }
+
+        .booking input{
+            width: 200px;
+            height: 40px;
+            border-radius: 5px;
+            border: none;
+            padding-left: 10px;
+        }
+
+        .booking_button{
+            width: 200px;
+            height: 40px;
+            border-radius: 20px;
+            border: none;
+            background-color: white;
+            color: rgba(139, 0, 0, 1);
+            font-weight: bold;
+            text-align: center;
+            line-height: 40px;
+            cursor: pointer;
+        }
