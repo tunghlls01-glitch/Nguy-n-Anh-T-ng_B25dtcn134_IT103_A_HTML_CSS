@@ -1,0 +1,201 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body {
+    font-family: 'Times New Roman', Times, serif;
+ }
+/* header */
+header {
+    width: 100%;
+    background-color: #ffffff ;
+    display:flex ;  
+    justify-content: center;  
+}
+header .header_contents {
+    width: 63.5%;
+    height: 96.30999755859375px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1 {
+    color: #E76F51;
+    font-weight: 400;
+    font-size: 35px;
+    padding: 10px;
+}
+header a {
+    text-decoration: none;
+    color: #3C2F2F;
+    padding: 10px;
+    font-weight: 500;
+}
+header button {
+    border-radius: 30px;
+    border: none;
+    background-color: #E76F51;
+    padding: 10px 20px;
+    color: #FFFFFF;
+}
+/* main */
+
+/* hương vị hà nội xưa */
+.img_parents {
+    width: 100%;
+    position: relative;
+}
+.img_parents img{
+    width: 100%;
+    filter: brightness(50%);/* lệnh làm tối ảnh */
+}
+.img_parents .child{
+    width: 621.8900146484375px;
+    height: 277.3399963378906px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.child h1 {
+    width: 100%;
+    font-size: 64px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.child p {
+    font-size: 22.4px;
+    color: #ffffff;
+    text-align: center;
+}
+.child button {
+    margin: 0px 184.68px;
+    font-size: 20.8px;
+    background-color: #E76F51;
+    color: #FFFFFF;
+    border-radius: 50px;
+    border: none;
+    width: 252.55999755859375px;
+    height: 63.27000045776367px;
+    
+}
+
+/* Món ăn nổi bật */
+main{
+    background-color: #fff8f0;
+}
+h2 {
+    text-align: center;
+    font-size: 48px;
+    color: #E76F51;
+    margin-bottom: 60px;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 100px;
+}
+.card {
+    width: 320px;
+    height: 446.1099853515625px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+}
+.card .image img {
+    width: 100%;
+    height: 220px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.menu_food {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 18px;
+    padding: 20px;
+}
+.menu_food h3 {
+    font-size: 25.6px;
+}
+.menu_food nav {
+    color: #E76F51;
+    font-size: 24px;
+}
+.menu_food p {
+    color: #666666;
+    font-size: 16px;
+}
+/* thực đơn */
+.cook_table h2 {
+    text-align: center;
+}
+.card_one{
+    width: 280px;
+    height: 68.14px;
+   background-color: #FFFFFF;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   border-radius: 15px;
+   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+}
+.card_one span {
+    font-size: 16px;
+    color: #E76F51;
+}
+.card_one p {
+    font-size: 16px;
+}
+.cook_table {
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+/* footer */
+footer {
+    background-color: #3C2F2F;
+}
+.footer_header {
+    width: 1200px;
+    height: 234px;
+    background-color: #3C2F2F ;
+    display:flex ;  
+    justify-content: center;
+    align-items: center;
+     margin-left: 200px;
+     gap: 250px;
+     border-bottom:  1px solid rgb(83, 82, 82);
+}
+.footer_header .footer_one {
+     background-color:#3C2F2F;
+    width: 27%;
+    height: 96.30999755859375px;
+   
+}
+.footer_header h1 {
+    color: #E76F51;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.footer_header p {
+    color: #FFFFFF;
+}
+.footer_footer p {
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
