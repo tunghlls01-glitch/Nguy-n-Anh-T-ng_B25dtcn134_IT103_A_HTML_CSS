@@ -1,0 +1,146 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f9fafb;
+    color: #333;
+}
+
+/* Section */
+.pricing {
+    padding: 60px 20px;
+}
+
+/* Header */
+.pricing-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.tag {
+    display: inline-block;
+    background: #eef2ff;
+    color: #6366f1;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.pricing-header h2 {
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+
+.pricing-header p {
+    color: #666;
+}
+
+/* Cards layout */
+.pricing-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;          
+}
+
+/* Card */
+.card {
+    background: #fff;
+    width: 320px;
+    padding: 32px 24px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.05);
+    flex-shrink: 0;          
+}
+
+.card h3 {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+/* Price */
+.price {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #6366f1;
+    margin-bottom: 24px;
+}
+
+.price span {
+    font-size: 14px;
+    color: #888;
+}
+
+.price.contact {
+    font-size: 28px;
+}
+
+/* List */
+.card ul {
+    list-style: none;
+    margin-bottom: 24px;
+}
+
+.card li {
+    margin-bottom: 12px;
+    padding-left: 22px;
+    position: relative;
+    font-size: 15px;
+}
+
+/* Check & X icon bằng CSS */
+.card li.ok::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #16a34a;
+}
+
+.card li.no::before {
+    content: "✖";
+    position: absolute;
+    left: 0;
+    color: #999;
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn-outline {
+    background: #fff;
+    border: 1px solid #2563eb;
+    color: #2563eb;
+}
+
+.btn-primary {
+    background: #2563eb;
+    border: none;
+    color: #fff;
+}
+
+/* Pro card nổi bật */
+.card-pro {
+    border: 2px solid #6366f1;
+    transform: translateY(-12px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+        max-width: 360px;
+    }
+}

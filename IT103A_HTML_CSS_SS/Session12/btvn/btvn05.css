@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* tổng */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* main */
+.main {
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+/* câu hỏi thường gặp */
+.main nav {
+    padding: 5px;
+    background-color: #c6cff7;
+    width: 148px;
+    height: 28px;
+    margin: 0 auto;
+    color: rgb(102, 102, 233);
+    border-radius: 7px;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+/* bạn có thắc mắc */
+.main h2 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+/* chúng tôi ss mọi thắc mắc ... */
+.main p {
+    font-size: 25px;
+    color: rgb(174, 172, 170);
+    margin-bottom: 50px;
+}
+
+/* item */
+
+.item {
+    font-size: 20px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.item .item_one {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.item .item_one .icon span {
+    font-size: 10px;
+}

@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card {
+    width: 30%;
+    height: 400px;
+    background-color:aliceblue;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+}
+/* dòng 1 */
+.card .header {
+    width: 100%;
+    height: 40%;
+    background: linear-gradient(135deg, #6976DF,#7551AB);
+    color: white;
+    position: relative;
+}
+.card .header p {
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    opacity: 0.8;
+}
+.card .header nav {
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* dòng 2 */
+.main_one {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.main_one p {
+    padding: 2px 4px;
+    background-color: #ABAEF8;
+    border-radius: 5px;
+    color: #7D7FF3;
+    font-weight: 300;
+}
+.main_one .fa-solid {
+    color: #FFC107;
+}
+/* dòng 3 */
+.main_two {
+    padding: 10px;
+    color: #A5A6A8;
+}
+.main_two p {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+}
+/* dòng 3 */ 
+.main_three {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: #A5A6A8;
+}
+.hr {
+    padding: 0 10px;
+    color: #A5A6A8;
+}
+/* dòng 4 */
+.main_four {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: #6467F1;
+    font-weight: bold;
+    font-size: 20px;
+}
+.main_four button {
+    background-color: #0D6EFD;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+}

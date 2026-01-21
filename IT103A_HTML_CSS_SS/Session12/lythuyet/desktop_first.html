@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .desktop {
+            background-color: green;
+        }
+
+        /* RESPONSIVE VIẾT Ở CUỐI STYLE */
+        
+        
+
+        
+
+        @media screen and (max-width: 1200px) {/* kích thước tối đa thì sẽ ăn thuộc tính */
+            .desktop {
+            background-color: red;
+
+            }
+        }
+
+        @media screen and (max-width: 992px) { /* <= */
+            .desktop {
+            background-color:blueviolet;
+
+            }
+        }
+        
+        @media screen and (max-width: 768px) {/* kích thước tối đa thì sẽ ăn thuộc tính */
+            .desktop {
+            background-color: yellow;
+
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="desktop">
+        RESPONSIVE DESKTOP!
+    </div>
+</body>
+</html>
