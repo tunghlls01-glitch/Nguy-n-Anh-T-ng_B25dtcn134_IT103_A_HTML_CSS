@@ -58,3 +58,12 @@
 .item .item_one .icon span {
     font-size: 10px;
 }
+/* responsive */
+
+@media (max-width: 767px) {
+    .item .item_one {
+        width: 65%;
+        height: auto;
+        margin-left: 100px;
+    }
+}

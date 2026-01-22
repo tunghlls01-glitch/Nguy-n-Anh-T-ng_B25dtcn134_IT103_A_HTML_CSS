@@ -89,3 +89,35 @@
     border-radius: 5px;
     padding: 5px;
 }
+/* responsive */
+@media (max-width: 1023px) {
+    .card {
+        width: 45%;
+       
+    }
+@media (max-width: 767px) {
+    .card {
+        width: 100%;
+        height: auto;
+    }
+
+    .card .header {
+        height: 35%;
+    }
+
+    .card .header nav {
+        font-size: 35px;
+    }
+
+    .main_one,
+    .main_three,
+    .main_four {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .main_four button {
+        width: 100%;
+        padding: 10px;
+    }
+}
