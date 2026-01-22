@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+.header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header .image img {
+    width: 200px;
+    height: auto;
+}
+
+.header .main_a a {
+    margin: 0 40px;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #A1A5AB;
+}
+
+.header .main_a a:hover {
+    background-color: rgb(186, 184, 184);
+    color: #5753EA;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.header .user {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.header .user div img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+/* main */
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-color: #5651E9;
+    color: white;
+    font-size: 20px;
+}
+
+.main h1 {
+    font-weight: 700;
+    margin: 40px 0px 20px;
+}
+
+.main p {
+    color: #E2E1FC;
+}
+
+/* responsive mobile*/
+@media screen and (max-width: 480px) {
+    .header {
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 50px;
+    }
+
+    .header .image img {
+        margin-left: 90px;
+    }
+
+    .header a {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+        margin-bottom: 20px;
+        transition: all 0.3s;
+    }
+
+    .header .user {
+        flex-direction: column;
+        margin-left: 85px;
+        font-size: 15px;
+    }
+
+    .main p {
+        text-align: center;
+    }
+}
+
+/* BTVN06 */
+/* tab */
+.tab {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 20px;
+}
+
+.tab span {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.tab span:hover {
+    background-color: #6366F1;
+    color: white;
+}
+
+/*responsive*/
+@media screen and (max-width: 480px) {
+    .tab span {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}
