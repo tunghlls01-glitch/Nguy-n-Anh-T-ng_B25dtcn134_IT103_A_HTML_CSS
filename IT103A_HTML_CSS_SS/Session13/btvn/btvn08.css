@@ -1,5 +1,163 @@
 * {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    p
+}
+
+body {
+    background-color: #f5f7fa;
+    padding: 50px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #fff;
+    border-radius: 15px;
+    width: 320px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image {
+    position: relative;
+}
+
+.card-image img {
+    width: 100%;
+    display: block;
+    border-radius: 15px 15px 0 0;
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 5px 12px;
+    border-radius: 20px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.blue { 
+    background: #4e6bff; 
+}
+.green { 
+    background: #2ecc71; 
+}
+.yellow { 
+    background: #f1c40f; 
+}
+
+.card-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.category { 
+    color: #888; 
+    font-size: 13px; 
+    margin-bottom: 8px; 
+}
+h3 { 
+    font-size: 18px; 
+    margin-bottom: 10px; 
+    color: #333; 
+}
+.author { 
+    font-size: 14px; 
+    color: #666; 
+    margin-bottom: 20px; 
+}
+
+/* Tiến độ học tập */
+.progress-container { 
+    margin-bottom: 20px; 
+}
+.progress-text, .progress-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.percent { 
+    color: #4e6bff; 
+    font-weight: bold; 
+}
+
+.progress-bar {
+    background: #eee;
+    height: 8px;
+    border-radius: 10px;
+    margin: 8px 0;
+}
+
+.fill {
+    background: #4e6bff;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.green-bar .fill { 
+    background: #2ecc71; 
+}
+.finish-date { 
+    font-size: 12px; 
+    color: #888; 
+}
+
+/* Thông tin khóa học & Giá */
+.course-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.price-section { 
+    margin-bottom: 15px; 
+}
+.current-price { 
+    font-size: 18px; 
+    font-weight: bold; 
+    color: #4e6bff; 
+}
+.old-price { 
+    font-size: 14px; 
+    color: #bbb; 
+    text-decoration: line-through; 
+    margin-left: 10px; 
+}
+
+/* Nút bấm */
+.btn {
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    margin-top: auto; 
+}
+
+.btn-primary { 
+    background: #6366f1; 
+    color: white; 
+}
+.btn-outline { 
+    background: white; 
+    color: #6366f1; 
+    border: 1px solid #6366f1; 
 }
