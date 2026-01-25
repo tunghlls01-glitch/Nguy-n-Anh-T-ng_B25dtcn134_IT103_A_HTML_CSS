@@ -1,0 +1,725 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*header*/
+header {
+    width:100%;
+    height: 81.58999633789062px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.container {
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    right: 384px;
+    left: 385px;
+}
+header .container .header_a {
+    display: flex;
+    gap: 32px;
+}
+header .container .image img {
+    width: 114.61000061035156px;
+    height: 40px;
+}
+header .container .header_a a {
+    text-decoration: none;
+    color: #1F2937;
+    font-size: 16px;
+}
+header .container .header-btn {
+    display: flex;
+    gap: 16px;
+}
+header .container .header-btn button {
+    width: 126.66999816894531px;
+    height: 49.59000015258789px;
+    border-radius: 8px;
+    border: 1px solid #6366F1;
+    color: #6366F1;
+    background-color: white;
+}
+header .container .header-btn button:hover {
+    color: white;
+    background-color: #6366F1;
+}
+/* hero */
+.hero {
+    width:100%;
+    height: 609.5599975585938px;
+    display: flex;
+    background-color: #6366F1;
+}
+.hero .container {
+    width: 1200px;
+}
+/* trái */
+.hero .container .hero_one {
+    width: 502.8299865722656px;   
+}
+.hero .container .hero_one h1 {
+    font-weight: 700;
+    font-size: 48px;
+    color: #FFFFFF;
+    margin-bottom: 31.59px;
+}
+.hero .container .hero_one p {
+    width: 100%;
+    height: 86px;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 37px;
+}
+.hero .container .hero_one .hero_button {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-left: 40px;
+}
+.hero .container .hero_one .hero_button button {
+    width: auto;
+    height: 60.79999923706055px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #6366F1;
+    border: none;
+    padding: 10px 20px;
+}
+.hero .container .hero_one .hero_button button:hover {
+    border: 1px solid #FFFFFF;
+}
+/* phải */
+.hero .container .hero_two {
+    width: 502.8299865722656px;
+}
+/* card 1 */
+.hero .container .hero_two .hero_card {
+    width: 100%;
+    height: 228.77999877929688px;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 24.01px;
+}
+.hero .container .hero_two .hero_card span {
+    font-size: 30px;
+}
+.hero .container .hero_two .hero_card p {
+    font-size: 31.6px;
+    color: #6366F1;
+    font-weight: 700;
+}
+.hero .container .hero_two .hero_card nav {
+    font-size: 16px;
+    color: #6B7280;
+    font-weight: 400;
+}
+/* card 2 */
+.hero_two .card {
+    width: 100%;
+    height: 228.77999877929688px;
+    display: flex;
+    justify-content: space-between;
+    gap: 23px;
+}
+.hero_two .card .card_two {
+    width: 265px;
+    height: 228.77999877929688px;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.hero_two .card .card_two span {
+    font-size: 23.9px;
+
+}
+.hero_two .card .card_two p {
+    font-size: 31.8px;
+    color: #6366F1;
+    font-weight: 700;
+}
+.hero_two .card .card_two nav {
+    font-size: 16px;
+    color: #6B7280;
+}
+/* features */
+.features {
+    width:100%;
+    height: 593.5800170898438px;
+    background-color: #F9FAFB;
+    text-align: center;
+}
+.features h1 {
+    font-size: 40px;
+    padding: 60px 0px 40px;
+}
+.features .section {
+    width: 1200px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.features .section .card {
+    width: 265px;
+    height: 353.579986572265px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+.features .section .card span {
+    margin-top: 68px;
+    font-size: 35.8px;
+    margin: 60px 50px 22px 50px;
+}
+.features .section .card p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 50px;
+    margin-bottom: 20px;
+}
+.features .section .card nav {
+    font-size: 16px;
+    color: #6B7280;
+    margin: 0 50px;
+}
+/* <!-- Courses Khóa học nổi bật --> */
+main {
+    width:100%;
+    height: 1500px;
+}
+.courses {
+    width: 1201px;
+    height: 1381.9200439453125px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.courses h1 {
+    padding: 60px 0px 20px;
+}
+.courses p {
+    padding: 0 0 20px;
+}
+/* card */
+.courses .section .card {
+    max-width: 363.6600036621094px;
+    min-width: 0;
+    height: 592.5599975585938px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+/* ảnh */
+.courses .section .card .image {
+    position: relative;
+}
+.courses .section .card .image img{
+    width: 363.6600036621094px;
+    object-fit: cover;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.courses .section .card .image p {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #6366F1;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+}
+/* nội dung card*/
+.courses .section .main {
+    width: 100%;
+    padding: 20px;
+    
+}
+.courses .section .main span {
+    width: 83.88999938964844px;
+    height: 30.389999389648438px;
+    padding: 7px;
+    background-color: #F9FAFB;
+    font-weight: 700;
+    color: #6366F1;
+    font-size: 14px;
+    border-radius: 6px;
+}
+.courses .section .main h2 {
+    width: 100%;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.courses .section .main p {
+    font-size: 15px;
+    color: #6B7280;
+}
+/* đánh giá card */
+.courses .section .evaluate {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 30px;
+    border-bottom: 1px solid #E5E7EB;
+    margin-bottom: 20px;
+}
+.courses .section .container {
+    max-width: 297.6600036621094px;
+    min-width: 0;
+    height: 47.38999938964844px;
+    display: flex;
+}
+.courses .section .container .monney p {
+    font-size: 14px;
+    text-decoration: line-through;
+    color: #6B7280;
+}
+.courses .section .container .monney span {
+    font-size: 23.6px;
+    color: #6366F1;
+    font-weight: 700;
+}
+.courses .section .container  button {
+    width: 148.02999877929688px;
+    height: 49.59000015258789px;
+    background-color: #6366F1;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 700;
+}
+/* chỉnh card */
+.section {
+    display: flex;
+    gap: 40px;
+}
+.courses {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+footer {
+    width: 100%;
+    background-color: #1F2937;
+    text-align: center;
+}
+
+footer .container {
+    width: 1200px;
+}
+footer .container .line_one {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between; 
+}
+/* hộp 1 */
+footer .container .box {
+    text-align: left;
+    width: 400px;
+    line-height: 1.5;
+    padding: 50px 0;
+}
+footer .container .box .image img { 
+    width: 143.27000427246094px;
+    height: 50px;
+    margin-bottom: 20px ;
+}
+footer .container .box p {
+    margin-bottom: 20px;
+    color: #9CA3AF;
+}
+footer .container .box .main{
+      display: flex;
+      gap: 24px;
+}
+/* box 2 */
+footer .container .box_two {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: left;
+}
+footer .container .box_two h5 {
+    color: #FFFFFF;
+    font-size: 18px;
+}
+footer .container .box_two .main {
+    display: flex;
+    flex-direction: column;
+    gap: 24.59px;
+    color: #6B7280;
+    font-size: 16px;
+}
+footer .line_two {
+    color: #6B7280;
+    padding-top: 37px;
+    padding-bottom: 28.6px;
+    border-top: 1px solid;
+    margin: 0 160px ;
+}
+
+/* RESPONSIVE  */
+
+@media (max-width: 1024px) {
+
+    /* container chung */
+    .container,
+    .features .section,
+    .courses,
+    footer .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    /* HEADER */
+    header {
+        height: auto;
+        padding: 15px 0;
+    }
+
+    header .container {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    header .container .header_a {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* HERO */
+    .hero {
+        height: auto;
+        padding: 40px 0;
+    }
+
+    .hero .container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .hero .container .hero_one,
+    .hero .container .hero_two {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero .container .hero_one .hero_button {
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    /* HERO CARD */
+
+    .hero_two .card .card_two {
+        width: 60%;
+    }
+
+    /* FEATURES */
+    .features {
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .features .section {
+        flex-wrap: wrap;
+       
+    }
+
+    .features .section .card {
+        width: 30%;
+    }
+
+    /* COURSES */
+    main {
+        height: auto;
+    }
+
+    .courses {
+        height: auto;
+    }
+
+    .courses .section {
+        justify-content: center;
+    }
+
+    .courses .section .card {
+        width: 26%;
+    }
+
+    .courses .section .card .image img {
+        width: 100%;
+    }
+
+    /* FOOTER */
+    footer .container .line_one {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    footer .container .box,
+    footer .container .box_two {
+        width: 40%;
+        padding: 20px 0;
+    }
+
+    footer .line_two {
+        margin: 0 20px;
+        text-align: center;
+    }
+}
+
+/* mobile responsive */
+@media (max-width: 768px) {
+
+    header {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    header .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    /* logo */
+    header .container .image {
+        display: flex;
+        justify-content: center;
+    }
+
+    header .container .image img {
+        width: 120px;
+        height: auto;
+    }
+
+    /* menu */
+    header .container .header_a {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+    header .container .header_a a {
+        font-size: 16px;
+    }
+
+    /* nút */
+    header .container .header-btn {
+        display: flex;
+        gap: 16px;
+    }
+
+    header .container .header-btn button {
+        width: 120px;
+        height: 44px;
+        font-size: 14px;
+    }
+
+     .features {
+        padding: 40px 20px;
+        height: auto;
+    }
+
+    .features h1 {
+        font-size: 22px;
+        padding: 0 0 30px;
+        text-align: center;
+    }
+
+    .features .section {
+        flex-direction: column;   
+        gap: 20px;
+        width: 100%;
+    }
+
+    .features .section .card {
+        width: 100%;           
+        max-width: 100%;
+        min-height: auto;
+        padding-bottom: 24px;
+    }
+
+    .features .section .card span {
+        margin: 32px auto 16px;
+        font-size: 28px;
+    }
+
+    .features .section .card p {
+        font-size: 16px;
+        margin: 0 20px 12px;
+        text-align: center;
+    }
+
+    .features .section .card nav {
+        font-size: 14px;
+        margin: 0 20px;
+        text-align: center;
+        line-height: 1.5;
+    }
+    
+    .courses {
+        padding: 40px 20px;
+        height: auto;
+    }
+
+    .courses h1 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .courses p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    /* danh sách card */
+    .courses .section {
+        flex-direction: column;
+        gap: 24px;
+        width: 100%;
+    }
+
+    /* card khóa học */
+    .courses .section .card {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* ảnh */
+    .courses .section .card .image img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    /* nội dung */
+    .courses .section .main {
+        width: 100%;
+        padding: 16px;
+    }
+
+    .courses .section .main h2 {
+        font-size: 16px;
+        margin: 16px 0 12px;
+    }
+
+    .courses .section .main p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    /* đánh giá */
+    .courses .section .evaluate {
+        margin: 0 16px 16px;
+        padding-bottom: 12px;
+    }
+
+    /* giá + nút */
+    .courses .section .container {
+        width: 100%;
+        padding: 0 16px 16px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .courses .section .container button {
+        width: auto;
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+
+    footer {
+        padding: 40px 20px 20px;
+        text-align: center;
+    }
+
+    footer .container {
+        width: 100%;
+    }
+
+    /* hàng trên */
+    footer .container .line_one {
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+    }
+
+    /* box logo */
+    footer .container .box {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    footer .container .box .image img {
+        margin: 0 auto 16px;
+    }
+
+    footer .container .box p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    footer .container .box .main {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    /* các cột link */
+    footer .container .box_two {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+        align-items: center;
+    }
+
+    footer .container .box_two h5 {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    footer .container .box_two .main {
+        gap: 12px;
+        font-size: 14px;
+    }
+
+    /* copyright */
+    footer .line_two {
+        margin: 32px 0 0;
+        padding-top: 16px;
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
+
